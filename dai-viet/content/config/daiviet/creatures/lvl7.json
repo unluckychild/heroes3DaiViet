@@ -1,0 +1,176 @@
+{
+	"dv_creature_lvl7" : {
+		"name" : {
+			"singular" : "Sky Dragon",
+			"plural" : "Sky Dragons"
+		},
+		"upgrades" : [
+			"dv_creature_lvl7_up"
+		],
+		"level" : 7,
+		"special" : false,
+		"faction" : "daiviet",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 790
+		},
+		"fightValue" : 1170,
+		"aiValue" : 1400,
+		"growth" : 1,
+		"attack" : 15,
+		"defense" : 11,
+		"hitPoints" : 70,
+		"shots" : 0,
+		"speed" : 8,
+		"damage" : {
+			"min" : 15,
+			"max" : 20
+		},
+		"horde" : 2,
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "icons/e_fearl.png"
+			},
+			"enemyDefenceReduction" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+			},
+			"learnFly": {
+				"type": "SPELL",
+				"subtype": "fly",
+				"val": 0,
+				"propagator": "HERO",
+				"description" : "{Fly}\nteaches fly",
+			
+				//,"icon" : "path/to/icon"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		],
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "daiviet/creatures/battle/lvl7.def",
+			"map" : "daiviet/creatures/adventure/lvl7.def",
+			"iconSmall" : "daiviet/creatures/icon/lvl7",
+			"iconLarge" : "daiviet/creatures/portrait/lvl7",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.1,
+				"idle" : 10.0,
+				"attack" : 1.3
+			}
+		},
+		"sound" : {
+			"attack" : "DEVLATTK.wav",
+			"defend" : "SHDMDFND.wav",
+			"killed" : "SHDMKILL.wav",
+			"move" : "SHDMMOVE.wav",
+			"wince" : "SHDMWNCE.wav"
+		}
+	}
+}

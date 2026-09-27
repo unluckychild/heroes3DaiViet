@@ -1,0 +1,53 @@
+{
+	"ngoquyen" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_might",
+		"spellbook" : [
+			"shield"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/ngoquyen/large",
+			"small" : "daiviet/heroes/ngoquyen/small",
+			"specialtyLarge" : "daiviet/heroes/ngoquyen/slarge",
+			"specialtySmall" : "daiviet/heroes/ngoquyen/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"secondary" : "armorer"
+		},
+		"texts" : {
+			"biography" : "A legendary commander who defeated a powerful invading force through careful preparation and mastery of the battlefield. His victory at Bach Dang demonstrated the power of patience, terrain, and defensive strategy.",
+			"name" : "Ngo Quyen",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage."
+			}
+		}
+	}
+}

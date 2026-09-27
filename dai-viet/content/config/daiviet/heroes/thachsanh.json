@@ -1,0 +1,50 @@
+{
+	"thachsanh" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+		],
+		"class" : "dv_might",
+		"images" : {
+			"large" : "daiviet/heroes/thachsanh/large",
+			"small" : "daiviet/heroes/thachsanh/small",
+			"specialtyLarge" : "daiviet/heroes/thachsanh/slarge",
+			"specialtySmall" : "daiviet/heroes/thachsanh/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "dv_creature_lvl2"
+		},
+		"texts" : {
+			"biography" : "A humble woodcutter blessed with extraordinary strength and courage, Thạch Sanh faced fearsome monsters and supernatural enemies without hesitation. Armed with his mighty axe and unshakable determination, he became a legendary hero whose strength and endurance carried him through the most dangerous battles.",
+			"name" : "Thach Sanh",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Stone Hunters",
+				"name" : "Stone Hunters",
+				"description" : "Increases the Speed of any Stone Hunters or Stone Slingers by 1 and their Attack and Defense skills by 5% for every level (rounded up)."
+			}
+		}
+	}
+}

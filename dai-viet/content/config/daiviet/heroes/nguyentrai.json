@@ -1,0 +1,53 @@
+{
+	"nguyentrai" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_magic",
+		"spellbook" : [
+			"shield"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/nguyentrai/large.png",
+			"small" : "daiviet/heroes/nguyentrai/small.png",
+			"specialtyLarge" : "daiviet/heroes/nguyentrai/slarge.png",
+			"specialtySmall" : "daiviet/heroes/nguyentrai/ssmall.png"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		"specialty" : {
+			"secondary" : "intelligence"
+		},
+		"texts" : {
+			"biography" : "A renowned scholar and strategist whose words were considered as important as the weapons of his armies. His knowledge, diplomacy, and understanding of warfare made him an invaluable adviser and commander.",
+			"name" : "Nguyen Trai",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Intelligence",
+				"name" : "Intelligence",
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage."
+			}
+		}
+	}
+}

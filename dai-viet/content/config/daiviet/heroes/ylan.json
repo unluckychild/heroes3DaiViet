@@ -1,0 +1,54 @@
+{
+	"ylan" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"female" : true,
+		"class" : "dv_magic",
+		"spellbook" : [
+			"forceField"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/ylan/large",
+			"small" : "daiviet/heroes/ylan/small",
+			"specialtyLarge" : "daiviet/heroes/ylan/slarge",
+			"specialtySmall" : "daiviet/heroes/ylan/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		"specialty" : {
+			"secondary" : "resistance"
+		},
+		"texts" : {
+			"biography" : "A remarkable royal figure who governed during periods when the kingdom faced serious challenges. Her intelligence and political ability allowed her to manage the affairs of the kingdom with exceptional skill.",
+			"name" : "Y Lan",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance",
+				"description" : "Receives a 5% per level bonus to Resistance skill percentage."
+			}
+		}
+	}
+}

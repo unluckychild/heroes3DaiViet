@@ -1,0 +1,71 @@
+{
+	"name" : "Dai Viet",
+	"description" : "Format used to define main mod file (mod.json) in VCMI",
+	"author" : "Hai Anh Nguyen (much thanks to Karyoplasma@discord)",
+	"contact" : "https://haianh.com/heroes3",
+	"version" : "0.02",
+	"modType" : "Town",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"0.02" : [
+			"5.9.2026 - Names for faction, town, unit names"
+		],
+		"0.01" : [
+			"1.9.2026 - Start"
+		]
+	},
+	"factions" : [
+		"config/daiviet/town/faction.json",
+		"config/daiviet/town/buildings.json",
+		"config/daiviet/town/structures.json",
+		"config/daiviet/town/siege.json",
+		"config/daiviet/town/spells.json",
+		"config/daiviet/town/puzzle.json"
+	],
+	"creatures" : [
+		"config/daiviet/creatures/lvl1.json",
+		"config/daiviet/creatures/lvl1_up.json",
+		"config/daiviet/creatures/lvl2.json",
+		"config/daiviet/creatures/lvl2_up.json",
+		"config/daiviet/creatures/lvl3.json",
+		"config/daiviet/creatures/lvl3_up.json",
+		"config/daiviet/creatures/lvl4.json",
+		"config/daiviet/creatures/lvl4_up.json",
+		"config/daiviet/creatures/lvl5.json",
+		"config/daiviet/creatures/lvl5_up.json",
+		"config/daiviet/creatures/lvl6.json",
+		"config/daiviet/creatures/lvl6b.json",
+		"config/daiviet/creatures/lvl7.json",
+		"config/daiviet/creatures/lvl7_up.json",
+		"config/daiviet/creatures/wiki.json"
+	],
+	"heroClasses" : [
+		"config/daiviet/classes/might.json",
+		"config/daiviet/classes/magic.json"
+	],
+	"heroes" : [
+		"config/daiviet/heroes/tranquoctoan.json",
+		"config/daiviet/heroes/quangtrung.json",
+		"config/daiviet/heroes/ngoquyen.json",
+		"config/daiviet/heroes/lythuongkiet.json",
+		"config/daiviet/heroes/dinhbolinh.json",
+		"config/daiviet/heroes/tranhungdao.json",
+		"config/daiviet/heroes/trungtrac.json",
+		"config/daiviet/heroes/thachsanh.json",
+
+		"config/daiviet/heroes/anduongvuong.json",
+		"config/daiviet/heroes/laclongquan.json",
+		"config/daiviet/heroes/nguyentrai.json",
+		"config/daiviet/heroes/lyconguan.json",
+		"config/daiviet/heroes/auco.json",
+		//"config/daiviet/heroes/ylan.json",
+		"config/daiviet/heroes/leloi.json",
+		"config/daiviet/heroes/sontinh.json",
+		"config/daiviet/heroes/thuytinh.json"
+	],
+	"objects" : [
+		"config/daiviet/dwellings.json"
+	]
+}

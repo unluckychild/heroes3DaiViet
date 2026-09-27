@@ -1,0 +1,49 @@
+{
+	"thuytinh" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 20
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_magic",
+		"spellbook" : [
+			"frostRing"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/thuytinh/large",
+			"small" : "daiviet/heroes/thuytinh/small",
+			"specialtyLarge" : "daiviet/heroes/thuytinh/slarge",
+			"specialtySmall" : "daiviet/heroes/thuytinh/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"creature" : "dv_creature_lvl6"
+		},
+		"texts" : {
+			"biography" : "The Water Lord commands rivers, storms, and the fury of the sea. When angered, his power can unleash devastating floods upon the lands of his enemies.",
+			"name" : "Thuy Tinh",
+			"specialty" : {
+				"description" : "Increases the Speed of any Water Spirits by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"name" : "Water Spirits",
+				"tooltip" : "Creature Bonus: Water Spirits"
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"laclongquan" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_magic",
+		"spellbook" : [
+			"bless"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/laclongquan/large",
+			"small" : "daiviet/heroes/laclongquan/small",
+			"specialtyLarge" : "daiviet/heroes/laclongquan/slarge",
+			"specialtySmall" : "daiviet/heroes/laclongquan/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"specialty" : {
+			//"creature" : "dv_creature_lvl7"
+			
+			"base" : {
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "dv_creature_lvl7",
+						"includeUpgrades" : true
+					}
+				]
+			},
+			"bonuses" : {
+				"damage" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5
+				},
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "The legendary Dragon Lord who descended from the waters and became one of the founding ancestors of his people. His supernatural heritage grants him great knowledge and resistance to hostile magical forces.",
+			"name" : "Lac Long Quan",
+			"specialty" : {
+				"tooltip" : "Increases allied Sky Dragons and Celestial Dragons's Attack, Defense, and Damage by 5.",
+				"name" : "Sky Dragons",
+				"description" : "Creature Bonus: Sky Dragons"
+			}
+		}
+	}
+}

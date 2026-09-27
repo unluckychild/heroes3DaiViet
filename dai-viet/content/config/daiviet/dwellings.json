@@ -1,0 +1,222 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"dv_creature_lvl1_dwelling" : {
+				"name" : "Shirefolk",
+				"creatures" : [
+					[
+						"dv_creature_lvl1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPELF"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl1",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw1.def"
+			},
+			"dv_creature_lvl2_dwelling" : {
+				"name" : "Scalecrest Roost",
+				"creatures" : [
+					[
+						"dv_creature_lvl2"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPCAVE"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl2",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw2.def"
+			},
+			"dv_creature_lvl3_dwelling" : {
+				"name" : "Trapcrafters Headquarter",
+				"creatures" : [
+					[
+						"dv_creature_lvl3"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPDWAR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl3",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw3.def"
+			},
+			"dv_creature_lvl4_dwelling" : {
+				"name" : "Aquarius Pond",
+				"creatures" : [
+					[
+						"dv_creature_lvl4"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPHYDR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl4",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw4.def"
+			},
+			"dv_creature_lvl5_dwelling" : {
+				"name" : "High Peak Nests",
+				"creatures" : [
+					[
+						"dv_creature_lvl5"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPAIR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl5",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw5.def"
+			},
+			"dv_creature_lvl6_dwelling" : {
+				"name" : "Cave Thicket",
+				"creatures" : [
+					[
+						"dv_creature_lvl6"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPBEHE"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl6",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw6.def"
+			},
+			"dv_creature_lvl6_dwellingb" : {
+				"name" : "Cave Thicketb",
+				"creatures" : [
+					[
+						"dv_creature_lvl6b"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPBEHE"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl6b",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw6b.def"
+			},
+			"dv_creature_lvl7_dwelling" : {
+				"name" : "Mountain Nexus",
+				"creatures" : [
+					[
+						"dv_creature_lvl7"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPEART"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "daiviet/map/lvl7",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "daiviet/map/flagports/ruinsdw7.def"
+			}
+		}
+	}
+}

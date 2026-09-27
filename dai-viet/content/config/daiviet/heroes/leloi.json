@@ -1,0 +1,53 @@
+{
+	"leloi" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_magic",
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/leloi/large",
+			"small" : "daiviet/heroes/leloi/small",
+			"specialtyLarge" : "daiviet/heroes/leloi/slarge",
+			"specialtySmall" : "daiviet/heroes/leloi/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		"specialty" : {
+			"secondary" : "learning"
+		},
+		"texts" : {
+			"biography" : "A determined leader who gathered scattered forces and fought a long struggle to restore Dai Viet's independence. His ability to inspire his followers and adapt his tactics allowed a small resistance to become a powerful army.",
+			"name" : "Le Loi",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Learning",
+				"name" : "Learning",
+				"description" : "Receives a 5% per level bonus to Learning skill percentage."
+			}
+		}
+	}
+}

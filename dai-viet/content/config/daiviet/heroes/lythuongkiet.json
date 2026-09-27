@@ -1,0 +1,50 @@
+{
+	"lythuongkiet" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			}
+		],
+		"class" : "dv_might",
+		"images" : {
+			"large" : "daiviet/heroes/lythuongkiet/large",
+			"small" : "daiviet/heroes/lythuongkiet/small",
+			"specialtyLarge" : "daiviet/heroes/lythuongkiet/slarge",
+			"specialtySmall" : "daiviet/heroes/lythuongkiet/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		"specialty" : {
+			"creature" : "dv_creature_lvl1"
+		},
+		"texts" : {
+			"biography" : "A seasoned general who carried the war beyond the borders of Dai Viet and struck at his enemies before they could gather their strength. His campaigns combined aggressive warfare with rapid movement and careful planning.",
+			"name" : "Ly Thuong Kiet",
+			"specialty" : {
+				"description" : "Increases the Speed of any Bamboo Villagers or Bamboo Warriors by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"name" : "Bamboo Villagers",
+				"tooltip" : "Creature Bonus: Bamboo Villagers"
+			}
+		}
+	}
+}

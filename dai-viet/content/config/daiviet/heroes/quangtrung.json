@@ -1,0 +1,56 @@
+{
+	"quangtrung" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_might",
+		"spellbook" : [
+			"forceField"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/quangtrung/large.png",
+			"small" : "daiviet/heroes/quangtrung/small.png",
+			"specialtyLarge" : "daiviet/heroes/quangtrung/slarge.png",
+			"specialtySmall" : "daiviet/heroes/quangtrung/ssmall.png"
+		},
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"lumberjack" : {
+					"subtype" : "wood",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 2,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "A brilliant military commander renowned for speed, decisive action, and daring battlefield maneuvers. His armies could strike with astonishing speed and overwhelm enemies before they could organize a response.",
+			"name" : "Quang Trung",
+			"specialty" : {
+				"description" : "Increases kingdom's wood production by 2 per day.",
+				"name" : "+2 Wood",
+				"tooltip" : "+2 Wood each day"
+			}
+		}
+	}
+}

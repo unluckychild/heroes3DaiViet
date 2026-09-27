@@ -1,0 +1,167 @@
+{
+	"dv_creature_lvl4_up" : {
+		"name" : {
+			"singular" : "Royal Elephant",
+			"plural" : "Royal Elephants"
+		},
+		"level" : 4,
+		"special" : false,
+		"faction" : "daiviet",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 340
+		},
+		"fightValue" : 490,
+		"aiValue" : 530,
+		"growth" : 4,
+		"attack" : 9,
+		"defense" : 11,
+		"hitPoints" : 40,
+		"shots" : 0,
+		"speed" : 7,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
+		},
+		"spellPoints" : 50,
+		"advMapAmount" : {
+			"max" : 15,
+			"min" : 12
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"spirit" : {
+				"type" : "NON_LIVING"
+			},
+			"reduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 100
+			},
+			"immunity" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "water",
+				"description" : "{Bad Water Immunity}\nEldritch Kelpies are immune to all negative water spells",
+				"icon" : "icons/e_spwater1.png"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		],
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "daiviet/creatures/battle/lvl4_up.def",
+			"map" : "daiviet/creatures/adventure/lvl4_up.def",
+			"iconSmall" : "daiviet/creatures/icon/lvl4_up",
+			"iconLarge" : "daiviet/creatures/portrait/lvl4_up",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "WUNCATTK.wav",
+			"defend" : "WUNCDFND.wav",
+			"killed" : "WUNCKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"shoot" : "WUNCSHOT.wav",
+			"wince" : "WUNCWNCE.wav"
+		}
+	}
+}

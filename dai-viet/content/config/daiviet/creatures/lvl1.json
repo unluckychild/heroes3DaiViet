@@ -1,0 +1,179 @@
+{
+	"dv_creature_lvl1" : {
+		"name" : {
+			"singular" : "Bamboo villager",
+			"plural" : "Bamboo villagers"
+		},
+		"upgrades" : [
+			"dv_creature_lvl1_up"
+		],
+		"level" : 1,
+		"special" : false,
+		"faction" : "daiviet",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 62
+		},
+		"fightValue" : 56,
+		"aiValue" : 75,
+		"growth" : 16,
+		"horde" : 0,
+		"attack" : 4,
+		"defense" : 2,
+		"hitPoints" : 5,
+		"shots" : 12,
+		"speed" : 4,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 55,
+			"min" : 20
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		],
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "daiviet/creatures/battle/battle_lvl1.def",
+			"map" : "daiviet/creatures/adventure/lvl1.def",
+			"iconSmall" : "daiviet/creatures/icon/lvl1",
+			"iconLarge" : "daiviet/creatures/portrait/lvl1",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"projectile" : "daiviet/projectiles/boomerang.def",
+				"offset" : {
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : -5,
+					"lowerY" : 20
+				},
+				"frameAngles" : [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "HALFATTK.wav",
+			"defend" : "HALFDFND.wav",
+			"killed" : "DWRFKILL.wav",
+			"move" : "DWRFMOVE.wav",
+			"shoot" : "HALFSHOT.wav",
+			"wince" : "HALFWNCE.wav"
+		}
+	}
+}

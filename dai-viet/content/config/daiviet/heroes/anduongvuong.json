@@ -1,0 +1,55 @@
+{
+	"anduongvuong" : {
+		"army" : [
+			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			}
+			
+		],
+		"class" : "dv_magic",
+		"spellbook" : [
+			"magicArrow"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/anduongvuong/large",
+			"small" : "daiviet/heroes/anduongvuong/small",
+			"specialtyLarge" : "daiviet/heroes/anduongvuong/slarge",
+			"specialtySmall" : "daiviet/heroes/anduongvuong/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5
+		},
+
+		"texts" : {
+			"biography" : "The ancient ruler who built the formidable fortress of Co Loa and possessed the mysterious power of the Golden Turtle. His reign is remembered for the strange union of royal authority, ancient knowledge, and supernatural forces.",
+			"name" : "An Duong Vuong",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skill of any Ballista for each level attained after 4th level.",
+				"name" : "Ballista"
+			}
+		}
+	}
+}

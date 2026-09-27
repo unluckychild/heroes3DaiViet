@@ -1,0 +1,526 @@
+{//possible buildings
+	"daiviet" : {
+		"town" : {
+			"buildingsIcons" : "daiviet/townhall.def",
+			"buildings" : {
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"requires" : [
+						"villageHall"
+					]
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5,
+						"crystal" : 4,
+						"sulfur" : 4,
+						"mercury" : 4,
+						"gems" : 4
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5,
+						"crystal" : 6,
+						"sulfur" : 6,
+						"mercury" : 6,
+						"gems" : 6
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+				"mageGuild4" : null,
+				"mageGuild5" : null,
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern allows hiring heroes, hearing the latest gossip and visiting the Thieves' Guild. It also increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel"
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+				"villageHall" : {
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall"
+				},
+				"townHall" : {
+					"cost" : {
+						"gold" : 2500
+					},
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall"
+				},
+				"cityHall" : {
+					"cost" : {
+						"gold" : 5000
+					},
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "City Hall"
+				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"wood" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +2 woods each day.",
+					"name" : "Resource Silo",
+					"produce" : {
+						"wood" : 2
+					}
+				},
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with Ballistas.",
+					"warMachine" : "ballista",
+					"name" : "Blacksmith",
+					"requires" : [
+						"tavern"
+					]
+				},
+				//homeland adds extra speed when defending
+				"special1" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 10
+					},
+					"description" : "All friendly creatures gain +1 Speed when defending the town.",
+					"name" : "Homeland",
+					"requires" : [
+						"castle"
+					],
+					"bonuses": [
+						{
+							"type": "STACKS_SPEED",
+							"val": 1
+						}
+					]
+				},
+				
+				//mass adds extra growth for 4-6 
+				"hordeLvl1" : {
+					"cost" : {
+						"gold" : 5000
+					},
+					"bonuses" :
+					[{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel1",
+						"val": -16,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel2",
+						"val" : -9,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel3",
+						"val" : -7,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel4",
+						"val" : 1,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel5",
+						"val" : 1,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel6",
+						"val" : 1,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel7",
+						"val" : 1,
+						"valueType": "additiveValue"
+					}],
+					"description" : "Increases Level 4–6 creature growth by 1, but reduces Level 1–3 creature growth by 100%.",
+					"id" : 18,
+					"name" : "Hall of Advancement",
+					"requires" : [
+						"castle"
+					]
+				},
+				
+				//mass2 adds extra growth for 4-6
+				"hordeLvl6" : {
+					"cost" : {
+						"gold" : 5000
+					},
+					"bonuses" :
+					[{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel1",
+						"val": -16,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel2",
+						"val" : -8,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel3",
+						"val" : -7,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel4",
+						"val" : 1,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel5",
+						"val" : 1,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel6",
+						"val" : 1,
+						"valueType": "additiveValue"
+					},
+					{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel7",
+						"val" : 1,
+						"valueType": "additiveValue"
+					}],
+					"description" : "Increases Level 4–6 creature growth by 1, but reduces Level 1–3 creature growth by 100%.",
+					"id" : 24,
+					"name" : "Hall of Ascension",
+					"requires" : [
+						"hordeLvl1"
+					]
+				},
+				"ship" : null,
+				"shipyard" : null,
+				
+				//cover of green
+				"special4" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "Shrouds the surrounding area in dense forest, hiding it from enemy eyes.",
+					"bonuses" : [
+						{
+							"type" : "DARKNESS",
+							"val" : 20
+						}
+					],
+					"name" : "Veil of the Forest",
+					"requires" : [
+						"castle"
+					]
+				},
+				
+				"grail" : {
+					"description" : "The Turtle Tower increases weekly creature growth by 50%, provides 5,000 gold each day, and reduces the Speed of all enemy creatures by 1.",
+					"name" : "Turtle Tower",
+					"bonuses" : [
+						{
+							"type" : "STACKS_SPEED",
+							"val" : -1,
+							"limiters" : [
+								"OPPOSITE_SIDE"
+							],
+							"propagator" : "GLOBAL_EFFECT",
+							"propagationUpdater" : "BONUS_OWNER_UPDATER"
+						}
+					]
+				},
+				
+				
+				"dwellingLvl1" : {
+					"cost" : {
+						"gold" : 500
+					},
+					"description" : "The Farmstead allows you to recruit Bamboo villagers.",
+					"name" : "Farmstead",
+					"requires" : [
+						"fort"
+					]
+				},
+				"dwellingUpLvl1" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Upg. Farmstead allows you to recruit Bamboo Warriors.",
+					"name" : "Upg. Farmstead",
+					"upgrades" : "dwellingLvl1"
+				},
+				
+				
+				"dwellingLvl2" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"description" : "The Stone Camp allows you to recruit Stone Hunters.",
+					"name" : "Stone Camp",
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						]
+					]
+				},
+				"dwellingUpLvl2" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 15
+					},
+					"description" : "The Upg. Stone Camp allows you to recruit Stone Slingers.",
+					"name" : "Upg. Stone Camp",
+					"upgrades" : "dwellingLvl2"
+				},
+				
+				
+				"dwellingLvl3" : {
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"description" : "The Hall of Guardians allows you to recruit Spirit Turtles.",
+					"name" : "Hall of Guardians",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						]
+					]
+				},
+				"dwellingUpLvl3" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 10,
+						"ore" : 10
+					},
+					"description" : "The Upg. Hall of Guardians allows you to recruit Sacred Golden Turtles.",
+					"name" : "Upg. Hall of Guardians",
+					"upgrades" : "dwellingLvl3"
+				},
+				
+				
+				"dwellingLvl4" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 10,
+						"ore" : 10
+					},
+					"description" : "The War Camp allows you to recruit War Elephants.",
+					"name" : "War Camp",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
+				},
+				"dwellingUpLvl4" : {
+					"cost" : {
+						"gold" : 2000,
+						"mercury" : 5
+					},
+					"description" : "The Upg. War Camp allows you to recruit Royal Elephants.",
+					"name" : "Upg. War Camp",
+					"upgrades" : "dwellingLvl4"
+				},
+				
+				
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5,
+						"wood" : 5,
+						"sulfur" : 5
+					},
+					"description" : "The Sun Altar allows you to recruit Lac Birds.",
+					"name" : "Sun Altar",
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
+				},
+				"dwellingUpLvl5" : {
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 10,
+						"wood" : 5,
+						"sulfur" : 10
+					},
+					"description" : "The Upg. Sun Altar allows you to recruit Solar Avatars.",
+					"name" : "Upg. Sun Altar",
+					"upgrades" : "dwellingLvl5",
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
+				
+				
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 5000,
+						"wood" : 10,
+						"crystal" : 15
+					},
+					"description" : "The Water Temple allows you to recruit Water Spirits.",
+					"name" : "Water Temple",
+					"requires" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"mageGuild2"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				
+				
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"mercury" : 15
+					},
+					"description" : "The Mountain Temple allows you to recruit Mountain Spirits.",
+					"name" : "Mountain Temple",
+					"requires" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"mageGuild2"
+						],
+						[
+							"dwellingLvl6"
+						]
+						
+					]
+				},
+				
+				
+				"dwellingLvl8" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"gems" : 10
+					},
+					"description" : "The Heavenly Palace allows you to recruit Sky Dragons.",
+					"name" : "Heavenly Palace",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl7"
+						]
+					]
+				},
+				"dwellingUpLvl8" : {
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 10,
+						"ore" : 10,
+						"gems" : 15
+					},
+					"description" : "The Upg. Heavenly Palace allows you to recruit Celestial Dragons.",
+					"name" : "Upg. Heavenly Palace",
+					"upgrades" : "dwellingLvl8",
+					"requires" : [
+						"mageGuild2"
+					]
+				}
+				
+				
+			}
+		}
+	}
+}

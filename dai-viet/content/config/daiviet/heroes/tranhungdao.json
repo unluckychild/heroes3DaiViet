@@ -1,0 +1,53 @@
+{
+	"tranhungdao" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_might",
+		"spellbook" : [
+			"slow"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/tranhungdao/large",
+			"small" : "daiviet/heroes/tranhungdao/small",
+			"specialtyLarge" : "daiviet/heroes/tranhungdao/slarge",
+			"specialtySmall" : "daiviet/heroes/tranhungdao/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "logistics"
+		},
+		"texts" : {
+			"biography" : "One of Dai Viet's greatest military commanders, famous for defeating repeated invasions by a vastly larger enemy. He relied on discipline, careful preparation, terrain, and flexible battlefield tactics to overcome superior numbers.",
+			"name" : "Tran Hung Dao",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"name" : "Logistics",
+				"tooltip" : "Logistics"
+			}
+		}
+	}
+}

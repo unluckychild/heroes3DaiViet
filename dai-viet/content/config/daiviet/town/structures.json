@@ -1,0 +1,274 @@
+{//Buildings in main screen and hall
+	"daiviet" : {
+		"town" : {
+			"structures" : {
+				"mageGuild1" : {
+					"animation" : "daiviet/buildings/mageguild1",
+					"area" : "daiviet/town/area/mageguild1",
+					"border" : "daiviet/town/border/mageguild1",
+					"x" : 495,
+					"y" : 32,
+					"z" : 0
+				},
+				"mageGuild2" : {
+					"animation" : "daiviet/buildings/mageguild2",
+					"area" : "daiviet/town/area/mageguild2",
+					"border" : "daiviet/town/border/mageguild2",
+					"x" : 495,
+					"y" : 32,
+					"z" : 0
+				},
+				"mageGuild3" : {
+					"animation" : "daiviet/buildings/mageguild3",
+					"area" : "daiviet/town/area/mageguild3",
+					"border" : "daiviet/town/border/mageguild3",
+					"x" : 495,
+					"y" : 32,
+					"z" : 0
+				},
+				"tavern" : {
+					"animation" : "daiviet/buildings/tavern",
+					"area" : "daiviet/town/area/tavern",
+					"border" : "daiviet/town/border/tavern",
+					"x" : 368,
+					"y" : 207,
+					"z" : 4
+				},
+				"fort" : {
+					"animation" : "daiviet/buildings/fort",
+					"area" : "daiviet/town/area/fort",
+					"border" : "daiviet/town/border/fort",
+					"x" : 334,
+					"y" : 27,
+					"z" : -2
+				},
+				"citadel" : {
+					"animation" : "daiviet/buildings/citadel",
+					"area" : "daiviet/town/area/citadel",
+					"border" : "daiviet/town/border/citadel",
+					"x" : 334,
+					"y" : 27,
+					"z" : -2
+				},
+				"castle" : {
+					"animation" : "daiviet/buildings/castle",
+					"area" : "daiviet/town/area/castle",
+					"border" : "daiviet/town/border/castle",
+					"x" : 334,
+					"y" : 27,
+					"z" : -2
+				},
+				"villageHall" : {
+					"animation" : "daiviet/buildings/villagehall",
+					"area" : "daiviet/town/area/villagehall",
+					"border" : "daiviet/town/border/villagehall",
+					"x" : 281,
+					"y" : 133,
+					"z" : 3
+				},
+				"townHall" : {
+					"animation" : "daiviet/buildings/townhall",
+					"area" : "daiviet/town/area/townhall",
+					"border" : "daiviet/town/border/townhall",
+					"x" : 281,
+					"y" : 134,
+					"z" : 3
+				},
+				"cityHall" : {
+					"animation" : "daiviet/buildings/cityHall",
+					"area" : "daiviet/town/area/cityHall",
+					"border" : "daiviet/town/border/cityHall",
+					"x" : 281,
+					"y" : 134,
+					"z" : 3
+				},
+				"capitol" : {
+					"animation" : "daiviet/buildings/capitol",
+					"area" : "daiviet/town/area/capitol",
+					"border" : "daiviet/town/border/capitol",
+					"x" : 281,
+					"y" : 124,
+					"z" : 3
+				},
+				"blacksmith" : {
+					"animation" : "daiviet/buildings/blacksmith",
+					"area" : "daiviet/town/area/blacksmith",
+					"border" : "daiviet/town/border/blacksmith",
+					"x" : 252,
+					"y" : 189,
+					"z" : 5
+				},
+				"marketplace" : {
+					"animation" : "daiviet/buildings/marketplace",
+					"area" : "daiviet/town/area/marketplace",
+					"border" : "daiviet/town/border/marketplace",
+					"x" : 585,
+					"y" : 273,
+					"z" : 5
+				},
+				"resourceSilo" : {
+					"animation" : "daiviet/buildings/silo",
+					"area" : "daiviet/town/area/silo",
+					"border" : "daiviet/town/border/silo",
+					"x" : 589,
+					"y" : 152,
+					"z" : 2
+				},
+				"dwellingLvl1" : {
+					"animation" : "daiviet/buildings/dwellingLvl1",
+					"area" : "daiviet/town/area/dwellingLvl1",
+					"border" : "daiviet/town/border/dwellingLvl1",
+					"x" : 0,
+					"y" : 243,
+					"z" : 3
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "daiviet/buildings/dwellingUpLvl1",
+					"area" : "daiviet/town/area/dwellingUpLvl1",
+					"border" : "daiviet/town/border/dwellingUpLvl1",
+					"x" : 0,
+					"y" : 227,
+					"z" : 3
+				},
+				"hordeLvl1" : {
+					"animation" : "daiviet/buildings/hordeLvl1",
+					"area" : "daiviet/town/area/hordeLvl1",
+					"border" : "daiviet/town/border/hordeLvl1",
+					"hidden" : true,
+					"x" : 0,
+					"y" : 243,
+					"z" : 3
+				},
+				"dwellingLvl2" : {
+					"animation" : "daiviet/buildings/dwellingLvl2",
+					"area" : "daiviet/town/area/dwellingLvl2",
+					"border" : "daiviet/town/border/dwellingLvl2",
+					"x" : 534,
+					"y" : 110,
+					"z" : 1
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "daiviet/buildings/dwellingUpLvl2",
+					"area" : "daiviet/town/area/dwellingUpLvl2",
+					"border" : "daiviet/town/border/dwellingUpLvl2",
+					"x" : 534,
+					"y" : 110,
+					"z" : 1
+				},
+				"dwellingLvl3" : {
+					"animation" : "daiviet/buildings/dwellingLvl3",
+					"area" : "daiviet/town/area/dwellingLvl3",
+					"border" : "daiviet/town/border/dwellingLvl3",
+					"x" : 197,
+					"y" : 140,
+					"z" : 3
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "daiviet/buildings/dwellingUpLvl3",
+					"area" : "daiviet/town/area/dwellingUpLvl3",
+					"border" : "daiviet/town/border/dwellingUpLvl3",
+					"x" : 197,
+					"y" : 140,
+					"z" : 3
+				},
+				"dwellingLvl4" : {
+					"animation" : "daiviet/buildings/dwellingLvl4",
+					"area" : "daiviet/town/area/dwellingLvl4",
+					"border" : "daiviet/town/border/dwellingLvl4",
+					"x" : 0,
+					"y" : 162,
+					"z" : 2
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "daiviet/buildings/dwellingUpLvl4",
+					"area" : "daiviet/town/area/dwellingUpLvl4",
+					"border" : "daiviet/town/border/dwellingUpLvl4",
+					"x" : 0,
+					"y" : 162,
+					"z" : 2
+				},
+				"dwellingLvl5" : {
+					"animation" : "daiviet/buildings/dwellingLvl5",
+					"area" : "daiviet/town/area/dwellingLvl5",
+					"border" : "daiviet/town/border/dwellingLvl5",
+					"x" : 625,
+					"y" : 10,
+					"z" : 1
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "daiviet/buildings/dwellingUpLvl5",
+					"area" : "daiviet/town/area/dwellingUpLvl5",
+					"border" : "daiviet/town/border/dwellingUpLvl5",
+					"x" : 625,
+					"y" : 10,
+					"z" : 1
+				},
+				"dwellingLvl6" : {
+					"animation" : "daiviet/buildings/dwellingLvl6",
+					"area" : "daiviet/town/area/dwellingLvl6",
+					"border" : "daiviet/town/border/dwellingLvl6",
+					"x" : 0,
+					"y" : 70,
+					"z" : -1
+				},
+				"dwellingUp2Lvl6" : {
+					"animation" : "daiviet/buildings/dwellingLvl6b",
+					"area" : "daiviet/town/area/dwellingLvl6b",
+					"border" : "daiviet/town/border/dwellingLvl6b",
+					"x" : 181,
+					"y" : 61,
+					"z" : -1
+				},
+				"hordeLvl6" : {
+					"animation" : "daiviet/buildings/hordeLvl6",
+					"area" : "daiviet/town/area/hordeLvl6",
+					"border" : "daiviet/town/border/hordeLvl6",
+					"hidden" : true,
+					"x" : 0,
+					"y" : 70,
+					"z" : -1
+				},
+				"dwellingLvl7" : {
+					"animation" : "daiviet/buildings/dwellingLvl7",
+					"area" : "daiviet/town/area/dwellingLvl7",
+					"border" : "daiviet/town/border/dwellingLvl7",
+					"x" : 362,
+					"y" : 61,
+					"z" : 0
+				},
+				"dwellingUpLv17" : {
+					"animation" : "daiviet/buildings/dwellingUpLvl7",
+					"area" : "daiviet/town/area/dwellingUpLvl7",
+					"border" : "daiviet/town/border/dwellingUpLvl7",
+					"x" : 362,
+					"y" : 61,
+					"z" : 0
+				},
+				"special1" : {
+					"animation" : "daiviet/buildings/cemetery",
+					"area" : "daiviet/town/area/cemetery",
+					"border" : "daiviet/town/border/cemetery",
+					"x" : 269,
+					"y" : 264,
+					"z" : 4
+				},
+				"special4" : {
+					"animation" : "daiviet/buildings/jail",
+					"area" : "daiviet/town/area/jail",
+					"border" : "daiviet/town/border/jail",
+					"x" : 518,
+					"y" : 231,
+					"z" : 4
+				},
+				"grail" : {
+					"animation" : "daiviet/buildings/grail",
+					"area" : "daiviet/town/area/grail",
+					"border" : "daiviet/town/border/grail",
+					"x" : 573,
+					"y" : 47,
+					"z" : 5
+				}
+			}
+		}
+	}
+}

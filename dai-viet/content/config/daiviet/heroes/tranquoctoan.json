@@ -1,0 +1,49 @@
+{
+	"tranquoctoan" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"class" : "dv_might",
+		"spellbook" : [
+			"bloodlust"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/tranquoctoan/large",
+			"small" : "daiviet/heroes/tranquoctoan/small",
+			"specialtyLarge" : "daiviet/heroes/tranquoctoan/slarge",
+			"specialtySmall" : "daiviet/heroes/tranquoctoan/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"secondary": "offence"
+		},
+		"texts" : {
+			"biography" : "A young and fearless commander who refused to remain on the sidelines when his homeland was threatened. Though youthful, his determination and aggressive fighting style inspired those who followed him.",
+			"name" : "Tran Quoc Toan",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Offence",
+				"name" : "Offence",
+				"description" : "Receives a 5% per level bonus to Offence skill percentage."
+			}
+		}
+	}
+}

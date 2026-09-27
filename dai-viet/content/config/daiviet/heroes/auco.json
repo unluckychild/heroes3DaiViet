@@ -1,0 +1,54 @@
+{
+	"auco" : {
+		"army" : [
+			{
+				"creature" : "dv_creature_lvl1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "dv_creature_lvl2",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "dv_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"female" : true,
+		"class" : "dv_magic",
+		"spellbook" : [
+			"summonBoat"
+		],
+		"images" : {
+			"large" : "daiviet/heroes/auco/large",
+			"small" : "daiviet/heroes/auco/small",
+			"specialtyLarge" : "daiviet/heroes/auco/slarge",
+			"specialtySmall" : "daiviet/heroes/auco/ssmall"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "pathfinding"
+		},
+		"texts" : {
+			"biography" : "Legendary mother, born of an ancient and supernatural lineage. Her connection to the origins of the nation allows her to call forth mysterious creatures and spirits to aid her armies.",
+			"name" : "Au Co",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Pathfinding",
+				"name" : "Pathfinding",
+				"description" : "Receives a 5% per level bonus to Pathfinding skill percentage."
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"daiviet" : {
+		"town" : {
+			"guildSpells" : {
+				// Level 1
+				"bless" : 20,
+				"bloodlust" : 10,
+				"cure" : 40,
+				"curse" : 20,
+				"dispel" : 20,
+				"haste" : 20,
+				"magicArrow" : 15,
+				"protectAir" : 15,
+				"protectFire" : 0,
+				"shield" : 40,
+				"slow" : 60,
+				"stoneSkin" : 50,
+				"summonBoat" : 20,
+				"viewAir" : 20,
+				"viewEarth" : 20,
+
+				// Level 2
+				"disguise" : 5,
+				"disruptingRay" : 20,
+				"fireWall" : 15,
+				"fortune" : 30,
+				"iceBolt" : 15,
+				"lightningBolt" : 70,
+				"precision" : 20,
+				"quicksand" : 60,
+				"removeObstacle" : 30,
+				"scuttleBoat" : 50,
+				"visions" : 20,
+				"weakness" : 25,
+
+				// Level 3
+				"airShield" : 20,
+				"antiMagic" : 50,
+				"earthquake" : 70,
+				"fireball" : 10,
+				"forceField" : 30,
+				"forgetfulness" : 20,
+				"frostRing" : 15,
+				"hypnotize" : 10,
+				"landMine" : 60,
+				"mirth" : 10,
+				"misfortune" : 15,
+				"protectEarth" : 60,
+				"protectWater" : 60,
+				"teleport" : 0,
+
+				//Level 4
+				"berserk" : 5,
+				"chainLightning" : 150,
+				"clone" : 5,
+				"counterstrike" : 5,
+				"fireShield" : 0,
+				"frenzy" : 5,
+				"inferno" : 0,
+				"meteorShower" : 20,
+				"prayer" : 5,
+				"resurrection" : 10,
+				"slayer" : 5,
+				"sorrow" : 15,
+				"townPortal" : 15,
+				"waterWalk" : 0,
+
+				//Level 5
+				"airElemental" : 10,
+				"dimensionDoor" : 5,
+				"earthElemental" : 20,
+				"fireElemental" : 5,
+				"fly" : 5,
+				"implosion" : 20,
+				"magicMirror" : 15,
+				"sacrifice" : 15,
+				"waterElemental" : 5
+			}
+		}
+	}
+}

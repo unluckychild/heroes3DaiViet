@@ -1,0 +1,82 @@
+{
+	"dv_magic" : {
+		"animation" : {
+			"battle" : {
+				"female" : "daiviet/classes/magic/female.def",
+				"male" : "daiviet/classes/magic/male.def"
+			}
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "daiviet/classes/magic/adventure.def",
+					"editorAnimation" : "daiviet/classes/magic/editor.def"
+				}
+			}
+		},
+		"name" : "Daoist",
+		"faction" : "daiviet",
+		"commander" : "dv_creature_lvl3",
+		"affinity" : "magic",
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 2
+		},
+		"lowLevelChance" : {
+			"attack" : 10,
+			"defence" : 25,
+			"spellpower" : 30,
+			"knowledge" : 35
+		},
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 30
+		},
+		"secondarySkills" : {
+			"wisdom" : 9,
+			"earthMagic" : 8,
+			"learning" : 8,
+			"intelligence" : 8,
+			"firstAid" : 8,
+			"pathfinding" : 5,
+			"mysticism" : 7,
+			"eagleEye" : 7,
+			"scouting" : 5,
+			"resistance" : 6,
+			"airMagic" : 6,
+			"waterMagic" : 6,
+			"sorcery" : 3,
+			"ballistics" : 4,
+			"scholar" : 5,
+			"logistics" : 5,
+			"tactics" : 5,
+			"armorer" : 3,
+			"luck" : 3,
+			"fireMagic" : 5,
+			"estates" : 2,
+			"archery" : 3,
+			"offence" : 3,
+			"artillery" : 1,
+			"leadership" : 4,
+			"navigation" : 2,
+			"necromancy" : 0
+		},
+		"defaultTavern" : 4,
+		"tavern" : {
+			"castle" : 4,
+			"conflux" : 1,
+			"dungeon" : 5,
+			"fortress" : 6,
+			"necropolis" : 1,
+			"rampart" : 6,
+			"stronghold" : 6,
+			"daiviet" : 8,
+			"inferno" : 3,
+			"tower" : 3
+		}
+	}
+}

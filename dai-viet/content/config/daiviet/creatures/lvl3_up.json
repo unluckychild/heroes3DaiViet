@@ -1,0 +1,167 @@
+{
+	"dv_creature_lvl3_up" : {
+		"name" : {
+			"singular" : "Sacred Golden Turtle",
+			"plural" : "Sacred Golden Turtles"
+		},
+		"level" : 3,
+		"special" : false,
+		"faction" : "daiviet",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 252
+		},
+		"fightValue" : 412,
+		"aiValue" : 430,
+		"growth" : 7,
+		"attack" : 10,
+		"defense" : 6,
+		"hitPoints" : 20,
+		"shots" : 12,
+		"speed" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 6
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 7
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"hunter" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"trapper" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "landMine",
+				"val" : 2,
+				"description" : "{Guerilla}\nCasts Advanced Land Mines spell at the beginning of the battle",
+				"icon" : "icons/placeholder.png"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		],
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "daiviet/creatures/battle/battle_lvl3_up.def",
+			"map" : "daiviet/creatures/adventure/lvl3_up.def",
+			"iconSmall" : "daiviet/creatures/icon/lvl3_up",
+			"iconLarge" : "daiviet/creatures/portrait/lvl3_up",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			},
+			"missile" : {
+				"attackClimaxFrame" : 8,
+				"projectile" : "daiviet/projectiles/arrow.def",
+				"offset" : {
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : -5,
+					"lowerY" : 20
+				},
+				"frameAngles" : [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "HCRSATTK.wav",
+			"defend" : "HCRSDFND.wav",
+			"killed" : "HCRSKILL.wav",
+			"move" : "HCRSMOVE.wav",
+			"shoot" : "HCRSSHOT.wav",
+			"wince" : "HCRSWNCE.wav"
+		}
+	}
+}

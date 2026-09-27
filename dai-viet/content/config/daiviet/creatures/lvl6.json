@@ -1,0 +1,207 @@
+{
+	"dv_creature_lvl6" : {
+		"name" : {
+			"singular" : "Water Spirit",
+			"plural" : "Water Spirits"
+		},
+		"level" : 6,
+		"special" : false,
+		"faction" : "daiviet",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 2,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 1600
+		},
+		"fightValue" : 3021,
+		"aiValue" : 4000,
+		"growth" : 2,
+		"attack" : 16,
+		"defense" : 22,
+		"hitPoints" : 200,
+		"shots" : 0,
+		"speed" : 7,
+		"damage" : {
+			"min" : 30,
+			"max" : 50
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 11,
+			"min" : 4
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"immunity" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 100
+			},
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			},
+			"resistance" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 10
+			},
+			"learnWaterWalk": {
+				"type": "SPELL",
+				"subtype": "waterWalk",
+				"val": 0,
+				"propagator": "HERO",
+				"description" : "{Water Walk}\nteaches waterwalk"
+				//,"icon" : "path/to/icon"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "any"
+				},
+				"values" : [
+					54,
+					58,
+					62,
+					66,
+					70,
+					74,
+					78,
+					82,
+					86,
+					90
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			}
+		],
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "daiviet/creatures/battle/lvl6.def",
+			"map" : "daiviet/creatures/adventure/lvl6.def",
+			"iconSmall" : "daiviet/creatures/icon/lvl6",
+			"iconLarge" : "daiviet/creatures/portrait/lvl6",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "YBMHATTK.wav",
+			"defend" : "GGLMDFND.wav",
+			"killed" : "GGLMKILL.wav",
+			"move" : "YBMHMOVE.wav",
+			"wince" : "YBMHWNCE.wav"
+		}
+	}
+}
